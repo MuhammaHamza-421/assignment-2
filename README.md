@@ -9,7 +9,7 @@ A binary gender classification system that applies **KNN**, **Decision Tree**, a
 | Algorithm | Type | Accuracy |
 |---|---|---|
 | 🏆 **Decision Tree** | Supervised | **82.30%** |
-| Naive Bayes | Supervised | TBD |
+| Naive Bayes | Supervised | 71.42% |
 | KNN (k=5) | Supervised | 64.07% |
 
 **Best Model: Decision Tree** — achieves the highest accuracy on the test set.
@@ -139,7 +139,7 @@ Open **http://127.0.0.1:5001** in your browser.
 - Probabilistic classifier based on Bayes' theorem
 - Assumes features follow a Gaussian distribution
 - Fast training and prediction
-- Accuracy: **TBD** (run training to update)
+- Accuracy: **71.42%**
 
 ---
 

@@ -37,22 +37,22 @@
       "description": "Splits data using feature thresholds to build an interpretable tree."
     },
     {
-      "name": "KMeans",
-      "full_name": "K-Means Clustering",
-      "accuracy": 68.64,
+      "name": "NaiveBayes",
+      "full_name": "Naive Bayes",
+      "accuracy": 71.42,
       "cm": [
         [
-          0,
-          418
+          156,
+          262
         ],
         [
-          0,
-          915
+          119,
+          796
         ]
       ],
-      "cm_image": "cm_kmeans.png",
+      "cm_image": "cm_nb.png",
       "is_best": false,
-      "description": "Unsupervised clustering into 2 groups, mapped to gender labels by majority vote."
+      "description": "Probabilistic classifier based on Bayes' theorem with Gaussian distribution assumption."
     }
   ],
   "best": [
