@@ -29,7 +29,7 @@ def compare_models(results: dict) -> dict:
     """Compares model accuracies and returns a summary dict.
 
     Args:
-        results: {"KNN": 72.50, "DecisionTree": 68.30, "KMeans": 55.10}
+        results: {"KNN": 72.50, "DecisionTree": 68.30, "NaiveBayes": 55.10}
 
     Returns:
         {

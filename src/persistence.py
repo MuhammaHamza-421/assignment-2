@@ -5,7 +5,7 @@ import joblib
 _MODEL_FILES = {
     "knn": "knn_model.joblib",
     "dt": "dt_model.joblib",
-    "kmeans": "kmeans_model.joblib",
+    "nb": "nb_model.joblib",
     "best": "best_model.joblib",
 }
 _CONFIG_FILE = "extractor_config.json"
@@ -27,7 +27,7 @@ def load_artifacts(model_dir: str) -> dict:
     """Loads all model artifacts and extractor config from model_dir.
 
     Raises FileNotFoundError with a descriptive message if any required file is missing.
-    Returns dict with keys: "knn", "dt", "kmeans", "best", "extractor_method".
+    Returns dict with keys: "knn", "dt", "nb", "best", "extractor_method".
     """
     result = {}
 
